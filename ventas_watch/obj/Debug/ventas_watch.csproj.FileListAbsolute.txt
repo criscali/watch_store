@@ -1,0 +1,12 @@
+C:\Users\crist\source\repos\ventas_watch\ventas_watch\bin\Debug\ventas_watch.exe.config
+C:\Users\crist\source\repos\ventas_watch\ventas_watch\bin\Debug\ventas_watch.exe
+C:\Users\crist\source\repos\ventas_watch\ventas_watch\bin\Debug\ventas_watch.pdb
+C:\Users\crist\source\repos\ventas_watch\ventas_watch\obj\Debug\ventas_watch.csproj.AssemblyReference.cache
+C:\Users\crist\source\repos\ventas_watch\ventas_watch\obj\Debug\ventas_watch.Properties.Resources.resources
+C:\Users\crist\source\repos\ventas_watch\ventas_watch\obj\Debug\ventas_watch.csproj.GenerateResource.cache
+C:\Users\crist\source\repos\ventas_watch\ventas_watch\obj\Debug\ventas_watch.csproj.CoreCompileInputs.cache
+C:\Users\crist\source\repos\ventas_watch\ventas_watch\obj\Debug\ventas_watch.exe
+C:\Users\crist\source\repos\ventas_watch\ventas_watch\obj\Debug\ventas_watch.pdb
+C:\Users\crist\source\repos\ventas_watch\ventas_watch\obj\Debug\ventas_watch.vista.clientes.FormCreate_Client.resources
+C:\Users\crist\source\repos\ventas_watch\ventas_watch\obj\Debug\ventas_watch.main.resources
+C:\Users\crist\source\repos\ventas_watch\ventas_watch\obj\Debug\ventas_watch.vista.clientes.FormVerClient.resources
