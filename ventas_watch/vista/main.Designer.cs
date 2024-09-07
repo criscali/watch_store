@@ -45,20 +45,21 @@
             this.cLIENTESToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(867, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(578, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // vENTASToolStripMenuItem
             // 
             this.vENTASToolStripMenuItem.Name = "vENTASToolStripMenuItem";
-            this.vENTASToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.vENTASToolStripMenuItem.Size = new System.Drawing.Size(60, 22);
             this.vENTASToolStripMenuItem.Text = "VENTAS";
             // 
             // pRODUCTOSToolStripMenuItem
             // 
             this.pRODUCTOSToolStripMenuItem.Name = "pRODUCTOSToolStripMenuItem";
-            this.pRODUCTOSToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
+            this.pRODUCTOSToolStripMenuItem.Size = new System.Drawing.Size(86, 22);
             this.pRODUCTOSToolStripMenuItem.Text = "PRODUCTOS";
             // 
             // cLIENTESToolStripMenuItem
@@ -67,7 +68,7 @@
             this.nUEVOCLIENTEToolStripMenuItem,
             this.vERCLIENTESToolStripMenuItem});
             this.cLIENTESToolStripMenuItem.Name = "cLIENTESToolStripMenuItem";
-            this.cLIENTESToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.cLIENTESToolStripMenuItem.Size = new System.Drawing.Size(69, 22);
             this.cLIENTESToolStripMenuItem.Text = "CLIENTES";
             // 
             // nUEVOCLIENTEToolStripMenuItem
@@ -75,6 +76,7 @@
             this.nUEVOCLIENTEToolStripMenuItem.Name = "nUEVOCLIENTEToolStripMenuItem";
             this.nUEVOCLIENTEToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.nUEVOCLIENTEToolStripMenuItem.Text = "NUEVO CLIENTE";
+            this.nUEVOCLIENTEToolStripMenuItem.Click += new System.EventHandler(this.nUEVOCLIENTEToolStripMenuItem_Click);
             // 
             // vERCLIENTESToolStripMenuItem
             // 
@@ -85,11 +87,10 @@
             // 
             // main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(867, 478);
+            this.ClientSize = new System.Drawing.Size(578, 311);
             this.Controls.Add(this.menuStrip1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "main";
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
