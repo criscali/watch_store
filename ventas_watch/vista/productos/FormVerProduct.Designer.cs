@@ -1,6 +1,6 @@
-﻿namespace ventas_watch.vista.clientes
+﻿namespace ventas_watch.vista.productos
 {
-    partial class FormVerClient
+    partial class FormVerProduct
     {
         /// <summary>
         /// Required designer variable.
@@ -28,34 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dataGridViewProduct = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProduct)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dataGridViewProduct
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(77, 75);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(573, 150);
-            this.dataGridView1.TabIndex = 0;
+            this.dataGridViewProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewProduct.Location = new System.Drawing.Point(118, 62);
+            this.dataGridViewProduct.Name = "dataGridViewProduct";
+            this.dataGridViewProduct.Size = new System.Drawing.Size(541, 306);
+            this.dataGridViewProduct.TabIndex = 0;
             // 
-            // FormVerClient
+            // FormVerProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(722, 292);
-            this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "FormVerClient";
-            this.Text = "FormVerClient";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dataGridViewProduct);
+            this.Name = "FormVerProduct";
+            this.Text = "FormVerProduct";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProduct)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridViewProduct;
     }
 }

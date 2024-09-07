@@ -21,7 +21,13 @@ namespace ventas_watch
         private void vERCLIENTESToolStripMenuItem_Click(object sender, EventArgs e)
         {
              FormVerClient formVerClient = new FormVerClient();
-            formVerClient.Show();   
+             formVerClient.Show();   
+        }
+
+        private void nUEVOCLIENTEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormCreate_Client formCreateClient = new FormCreate_Client();
+            formCreateClient.Show();
         }
     }
 }
